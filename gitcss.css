@@ -16,6 +16,7 @@ article {
     width: 350px;
     height: 460px;
     background-image: url("./Kartinka.png");
+    border-radius: 10px;
 }
 
 .zagolovok {
@@ -51,6 +52,7 @@ header {
     background-color: #A4F422;
     margin-left: 40px;
     margin-top: 220px;
+    border-radius: 10px;
     gap: 10px;
 } 
 
