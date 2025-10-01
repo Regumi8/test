@@ -1,0 +1,71 @@
+@font-face {
+    src: url("./fonts/Roboto.woff2") format("woff2");
+    font-family: "Roboto";
+}
+
+@font-face {
+    src: url("./fonts/Roboto.ttf") format("truetype");
+    font-family: "Roboto";
+}
+
+body {
+    font-family: "Roboto";
+}
+
+article {
+    width: 350px;
+    height: 460px;
+    background-image: url("./Kartinka.png");
+}
+
+.zagolovok {
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 14px;
+    letter-spacing: 4px;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    filter: opacity(50%);
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 270px;
+    height: 72px;
+    letter-spacing: 2px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 120%;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.knopka {
+    width: 126px;
+    height: 44px;
+    background-color: #A4F422;
+    margin-left: 40px;
+    margin-top: 220px;
+    gap: 10px;
+}
+
+.text {
+    color:black;
+    width: 78px;
+    height: 16px;
+    font-weight: bold;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 16px;
+    /* padding: 25px;
+    display: inline-block;
+    text-align: center; */
+}
